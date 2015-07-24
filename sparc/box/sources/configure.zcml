@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="sparc.box">
+  
+  <!-- ICachableSource provider for Box content-->
+  <adapter
+      provides="sparc.cache.ICachableSource"
+      for="sparc.box.IBoxConnector"
+      factory=".box_api.boxSource"
+      />
+      
+</configure>
