@@ -1,7 +1,7 @@
 from zope.interface import Interface, Attribute
 
 class IBoxConnector(Interface):
-    """GE Box connector class
+    """Box connector class
     
     I'll fill this in later, once I understand what's involved in getting a 
     GE box api connection in place
