@@ -7,7 +7,7 @@ setup(name='sparc.box',
       version=version,
       description="facilities to interact with the Box api",
       long_description=open("README.md").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+                       open("HISTORY.txt").read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
